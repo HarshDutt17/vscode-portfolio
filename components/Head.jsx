@@ -17,8 +17,8 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="A full-stack developer building websites that you'd like to use."
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:image" content="https://private-user-images.githubusercontent.com/78022802/344993901-95915f4c-4349-4f9f-b548-d0d68b123580.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk5MTgxNTgsIm5iZiI6MTcxOTkxNzg1OCwicGF0aCI6Ii83ODAyMjgwMi8zNDQ5OTM5MDEtOTU5MTVmNGMtNDM0OS00ZjlmLWI1NDgtZDBkNjhiMTIzNTgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzAyVDEwNTczOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMwODgzYzdhNjZjMTA4OWU2N2MzOTA1NThkODhhYjViZDQ0NjQ5ZThjNTRhYzczYWE2MWM4NGE0OTRjNjQ3NTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zGheYxb0BRv5guoipq-MhqpAaNblK3IqR0Rop9CceKY" />
+      <meta property="og:url" content="https://hx4sh.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
