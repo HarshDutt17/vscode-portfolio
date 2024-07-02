@@ -6,8 +6,14 @@
     "image": "/arc.png",
     "startDate": "2021-01-01",
     "endDate": "2022-01-01",
-    "description": "Developed and maintained web applications.",
-    "skills": ["JavaScript", "React", "Node.js"
+    "description": [
+      "Implemented Hazelcast distributed cache management in a server‑side springboot application with over 40 tenants, effectively reducing API response time from 3‑digit ms to 2‑digit ms",
+      "Streamlined and implemented a modular code structure that eliminated unnecessary database calls in a high‑traffic production application with 160 transactions per second."
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
     ]
   },
   {
@@ -17,8 +23,16 @@
     "image": "/stgi.png",
     "startDate": "2019-05-01",
     "endDate": "2020-12-31",
-    "description": "Designed and implemented UI components.",
-    "skills": ["HTML", "CSS", "JavaScript"
+    "description": [
+      "Led a team to deliver a document classification and validation software utilizing LayoutLmv3 classification, YOLO object detection, and SVM techniques, resulting in positive feedback from clients and reducing application processing time by 5 hours.",
+      "Deployed and managed 2 ML solutions on AWS Cloud using services such as EC2, Sagemaker, Elastic Beanstalk, and storage options such as EFS, EBS, and S3",
+      "Successfully created full‑stack applications using Vue.js, Vuetify, and FastAPI, while implementing unit testing for both front‑end and back‑end. Developed VSCode extensions and snippets to enhance development efficiency",
+      "Migrated a Node.js application from LoopBack 3 to LoopBack 4, updating the codebase to incorporate the latest features and best practices of the framework while ensuring seamless functionality and performance."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
     ]
   },
   {
@@ -28,8 +42,15 @@
     "image": "/fox.png",
     "startDate": "2019-05-01",
     "endDate": "2020-12-31",
-    "description": "Designed and implemented UI components.",
-    "skills": ["HTML", "CSS", "JavaScript"
+    "description": [
+      "Reduced bugs by 25% and integrated frontend with backend in Worksickle project by migrating from HTML and JS to ReactJS.",
+      "Independently developed Inversion project from scratch using Tailwind and MUI library.",
+      "Resolved API request and payment process issues for Foxmula website with 1000+ users, ensuring uninterrupted service."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
     ]
   }
 ]

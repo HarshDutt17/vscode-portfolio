@@ -1,9 +1,14 @@
+/* ExperienceCard.module.css */
+
 .card {
   background: var(--article-bg);
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  padding: 8px 2px;
+  overflow: hidden; /* Ensure content overflow is hidden */
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -11,17 +16,20 @@
 }
 
 .image {
-  object-fit: contain; /* Ensure the entire image is visible without distortion */
+  object-fit: contain;
+  padding: 10px;
 }
 
 .content {
   padding: 1rem;
   border-radius: 0 0 20px 20px;
+  position: relative;
+  height: 100%;
 }
 
-.content p {
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
+.content_wrapper {
+  position: absolute;
+  bottom: 0;
 }
 
 .tags {
@@ -38,29 +46,36 @@
   transition: all 0.2s;
 }
 
-.cta {
-  display: flex;
-  gap: 1rem;
+.description {
+  padding: 10px;
+  margin-bottom: 4rem;
 }
 
-.underline {
-  padding: 0.2rem 0;
-  font-size: 0.9rem;
-  letter-spacing: 0;
+.descriptionList {
+  font-size: 0.75rem;
+  padding-left: 20px; /* Ensure padding for bullet */
+  padding-right: 10px; /* Ensure padding for bullet */
+  margin: 0; /* Remove default margin */
+  list-style-type: disc; /* Set list style */
+  text-wrap: pretty;
+  overflow: hidden;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 10; /* Number of lines to show before expanding */
+  -webkit-box-orient: vertical;
+}
+
+.descriptionList.expanded {
+  -webkit-line-clamp: initial; /* Show all lines when expanded */
+}
+
+.toggle {
   cursor: pointer;
-  color: white;
-  text-decoration: none;
-  background-image: linear-gradient(
-    120deg,
-    var(--accent-color) 100%,
-    var(--accent-color) 100%
-  );
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
+  color: var(--accent-color);
+  margin-top: 0.5rem;
+  display: block;
 }
 
-.underline:hover {
-  background-size: 100% 88%;
+.toggle:hover {
+  text-decoration: underline;
 }

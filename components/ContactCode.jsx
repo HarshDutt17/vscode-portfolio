@@ -15,11 +15,6 @@ const contactItems = [
     social: 'linkedin',
     link: 'harshdutt17',
     href: 'https://www.linkedin.com/in/harshdutt17/',
-  },
-  {
-    social: 'whatsapp',
-    link: '+91 9915895640',
-    href: 'https://wa.me/+919915895640',
   }
 ];
 
