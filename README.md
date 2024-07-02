@@ -1,3 +1,5 @@
+![image](https://github.com/HarshDutt17/vscode-portfolio/assets/78022802/95915f4c-4349-4f9f-b548-d0d68b123580)
+
 ## Environment Variables
 
 For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
