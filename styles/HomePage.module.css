@@ -160,7 +160,30 @@
     height: 700px;
     width: 600px;
   }
+
+  .image {
+    justify-content: center;
+  }
 }
+
+.image {
+  /* margin-left: 1.5rem; Increased spacing between content and image */
+  display: flex;
+  align-items: center; /* Center align image vertically */
+}
+.profile-image {
+  border-radius: 50%; /* Make the profile picture rounded */
+  overflow: hidden; /* Ensure rounded corners clip the image */
+}
+
+.profile-image img {
+  transition: transform 0.3s ease; /* Animation for image on hover */
+}
+
+.profile-image:hover img {
+  transform: scale(1.2); /* Scale up image on hover */
+}
+
 
 /* iPad */
 @media screen and (max-width: 900px) {

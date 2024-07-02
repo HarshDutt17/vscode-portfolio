@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "position": "SDE Intern",
+    "company": "Arcesium",
+    "image": "/arc.png",
+    "startDate": "2021-01-01",
+    "endDate": "2022-01-01",
+    "description": "Developed and maintained web applications.",
+    "skills": ["JavaScript", "React", "Node.js"
+    ]
+  },
+  {
+    "id": 2,
+    "position": "SDE Intern",
+    "company": "STGI Technologies Pvt. Ltd.",
+    "image": "/stgi.png",
+    "startDate": "2019-05-01",
+    "endDate": "2020-12-31",
+    "description": "Designed and implemented UI components.",
+    "skills": ["HTML", "CSS", "JavaScript"
+    ]
+  },
+  {
+    "id": 3,
+    "position": "Frontend Intern",
+    "company": "Foxmula - The Smart Way",
+    "image": "/fox.png",
+    "startDate": "2019-05-01",
+    "endDate": "2020-12-31",
+    "description": "Designed and implemented UI components.",
+    "skills": ["HTML", "CSS", "JavaScript"
+    ]
+  }
+]

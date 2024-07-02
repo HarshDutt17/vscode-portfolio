@@ -2,55 +2,25 @@ import styles from '../styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
-  },
-  {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'harshdatt17@gmail.com',
+    href: 'mailto:harshdatt17@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'HarshDutt17',
+    href: 'https://github.com/HarshDutt17',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'harshdutt17',
+    href: 'https://www.linkedin.com/in/harshdutt17/',
   },
   {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
-  },
-  {
-    social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
-  },
-  {
-    social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
-  },
-  {
-    social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
-  },
+    social: 'whatsapp',
+    link: '+91 9915895640',
+    href: 'https://wa.me/+919915895640',
+  }
 ];
 
 const ContactCode = () => {

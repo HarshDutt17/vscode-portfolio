@@ -21,14 +21,9 @@ const explorerItems = [
     icon: 'css_icon.svg',
   },
   {
-    name: 'projects.js',
-    path: '/projects',
+    name: 'experience.js',
+    path: '/experience',
     icon: 'js_icon.svg',
-  },
-  {
-    name: 'articles.json',
-    path: '/articles',
-    icon: 'json_icon.svg',
   },
   {
     name: 'github.md',
