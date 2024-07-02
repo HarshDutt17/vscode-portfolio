@@ -8,6 +8,7 @@ const CustomHead = ({ title }) => {
         name="description"
         content="Harsh Dutt is an avid full stack web developer building websites and applications you'd love to use"
       />
+      <meta name="google-site-verification" content="1EDuWP8gubCIUOEDDaYGBUFf7MoueNM6O7qJwYUsAOY" />
       <meta
         name="keywords"
         content="Harsh dutt, harsh, dutt, web developer portfolio, harsh web developer, harsh developer, mern stack, harsh dutt portfolio, vscode-portfolio"
