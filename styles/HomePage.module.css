@@ -232,11 +232,6 @@
     font-size: 1rem;
   }
   .illustration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 75vw;
-    height: 50vh;
-    z-index: 1;
+    display: none;
   }
 }
