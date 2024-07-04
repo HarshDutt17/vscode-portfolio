@@ -5,16 +5,19 @@ const AboutPage = () => {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
-        <h3>A Little Bit About Me</h3>
-        <p>
-          I am Harsh Dutt, a recent graduate with a Bachelor's degree in Computer Science from Punjab Engineering College, completing my education in June 2024. Throughout my academic journey, I have developed a robust skill set encompassing Java Development, Django, and Node.js, alongside a keen ability to swiftly adapt to emerging technologies. My diverse internship experiences at Arcesium, STGI Technologies, and Foxmula have equipped me with hands-on expertise in optimizing backend systems, deploying machine learning solutions on AWS, and proficiently developing full-stack applications using frameworks like Vue.js and ReactJS.
+        <h3 className={styles.heading}>A Little Bit About Me</h3>
+        <p className={styles.paragraph}>
+          I'm Harsh Dutt, a Computer Science graduate from Punjab Engineering College. With hands-on experience in Java, Django, Node.js, and full-stack development, I've honed my skills through internships at Arcesium, STGI Technologies, and Foxmula. I excel in optimizing backend systems, deploying ML solutions on AWS, and crafting applications using Vue.js and ReactJS.
         </p>
-        <p>
-          I am particularly proud of my achievements in competitive programming and hackathons, including winning the prestigious Code For Good 2023 organized by JP Morgan and securing accolades in events like CodeBlooded 4.0. These experiences have not only refined my technical prowess but also strengthened my problem-solving abilities and proficiency in Data Structures and Algorithms (DSA). I am passionate about leveraging technology to drive innovation and solve real-world challenges.
+        <p className={styles.paragraph}>
+          I've achieved notable success in competitive programming, winning the Code For Good 2023 by JP Morgan, and accolades at CodeBlooded 4.0. My journey has refined my problem-solving abilities and deepened my expertise in Data Structures and Algorithms.
         </p>
-        <p>
-          For more insights into my professional journey and achievements, please visit my LinkedIn profile at <a href="https://www.linkedin.com/in/harshdutt17" className={styles.underline} target="_blank" rel="noopener noreferrer">linkedin.com/in/harshdutt17</a>.
+        <p className={styles.paragraph}>
+          Connect with me on <a href="https://www.linkedin.com/in/harshdutt17" className={styles.underline} target="_blank" rel="noopener noreferrer">LinkedIn</a> to learn more about my professional journey and achievements.
         </p>
+        <button className={styles.button} onClick={() => window.open('/resume.pdf', '_blank')}>
+          Download Resume
+        </button>
       </div>
       <div className={styles.image}>
         <div className={styles['profile-image']}>

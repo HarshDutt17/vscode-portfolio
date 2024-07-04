@@ -1,57 +1,76 @@
-/* styles/About.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .card {
   background: var(--article-bg);
   display: flex;
-  flex-direction: row; /* Adjust to your layout */
+  flex-direction: row;
   border-radius: 20px;
   cursor: pointer;
-  padding: 1.5rem; /* Increased padding for better spacing */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover effect */
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Move card up slightly on hover */
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 1100px) {
-    .card {
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 2rem;
-    }
+  .card {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
 .content {
-  flex: 1; /* Ensure content takes remaining space */
+  flex: 1;
 }
 
-.content h3 {
-  margin-bottom: 1rem; /* Adjust heading margin for spacing */
+.heading {
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: var(--accent-color);
 }
 
-.content p {
-  font-size: 0.9rem;
+.paragraph {
+  font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 1.5rem; /* Add bottom margin for paragraphs */
+  margin-bottom: 1.5rem;
+  color: #eee;
 }
 
 .image {
-  margin-left: 1.5rem; /* Increased spacing between content and image */
+  margin-left: 1.5rem;
   display: flex;
-  align-items: center; /* Center align image vertically */
+  align-items: center;
 }
 
 .profile-image {
-  border-radius: 50%; /* Make the profile picture rounded */
-  overflow: hidden; /* Ensure rounded corners clip the image */
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .profile-image img {
-  transition: transform 0.3s ease; /* Animation for image on hover */
+  transition: transform 0.3s ease;
 }
 
 .profile-image:hover img {
-  transform: scale(1.1); /* Scale up image on hover */
+  transform: scale(1.2);
+}
+
+.button {
+  background: var(--accent-color);
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
