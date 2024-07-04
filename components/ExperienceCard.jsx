@@ -30,7 +30,15 @@ const ExperienceCard = ({ experience }) => {
 
   return (
     <div className={styles.card}>
-      <Image src={experience.image} height={100} width={100} alt={experience.company} className={styles.image} />
+      <Image 
+        src={experience.image} 
+        height={100} 
+        width={100} 
+        alt={experience.company} 
+        className={styles.image} 
+        quality={100} // Set the quality to 100 for better image quality
+        layout="intrinsic" // Use intrinsic layout to maintain image quality
+      />
       <div className={styles.content}>
         <h3>{experience.position}</h3>
         <h4>{experience.company}</h4>
