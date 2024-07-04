@@ -40,7 +40,7 @@ const ExperienceCard = ({ experience }) => {
             className={`${styles.descriptionList} ${expanded ? styles.expanded : ''}`}
           >
             {experience.description.map((desc, index) => (
-              <li style={{paddingTop: "8px"}} key={index}>{desc}</li>
+              <li style={{ paddingTop: "8px" }} key={index}>{desc}</li>
             ))}
           </ul>
           {isTextClamped && (

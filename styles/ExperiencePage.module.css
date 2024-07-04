@@ -4,3 +4,11 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
 }
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}

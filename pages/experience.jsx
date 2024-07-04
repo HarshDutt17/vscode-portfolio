@@ -8,7 +8,7 @@ const ExperiencesPage = ({ experiences }) => {
 
   return (
     <>
-      <h3>My Professional Experiences</h3>
+      <h3 className={styles.heading}>My Professional Experiences</h3>
       <div className={styles.container}>
         {experiences.map((experience) => (
           <ExperienceCard key={experience.id} experience={experience} />
@@ -17,7 +17,6 @@ const ExperiencesPage = ({ experiences }) => {
     </>
   );
 };
-
 
 export async function getStaticProps() {
   const experiences = getExperience();

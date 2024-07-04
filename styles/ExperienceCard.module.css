@@ -1,4 +1,4 @@
-/* ExperienceCard.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .card {
   background: var(--article-bg);
@@ -6,13 +6,14 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
-  padding: 8px 2px;
+  padding: 1rem;
   overflow: hidden; /* Ensure content overflow is hidden */
-  transition: box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 8px 8px 10px rgba(252, 252, 252, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .image {
@@ -47,6 +48,8 @@
   padding: 0.2rem 0.5rem;
   border-radius: 20px;
   font-size: 0.75rem;
+  background: var(--accent-color);
+  color: #fff;
   transition: all 0.2s;
 }
 
@@ -56,7 +59,7 @@
 }
 
 .descriptionList {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   padding-left: 20px; /* Ensure padding for bullet */
   padding-right: 10px; /* Ensure padding for bullet */
   margin: 0; /* Remove default margin */
@@ -82,4 +85,47 @@
 
 .toggle:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 2000px) {
+  .card {
+    padding: 2rem;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+  .descriptionList {
+    font-size: 1rem;
+  }
+  .tags span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .descriptionList {
+    font-size: 0.75rem;
+  }
+  .tags span {
+    font-size: 0.625rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .tags span {
+    font-size: 0.75rem;
+  }
 }
