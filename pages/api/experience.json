@@ -3,7 +3,7 @@
     "id": 1,
     "position": "SDE Intern",
     "company": "Arcesium",
-    "image": "/arc.png",
+    "image": "https://i.imgur.com/qvrRDq0.png",
     "startDate": "May 2023",
     "endDate": "July 2023",
     "description": [
@@ -21,7 +21,7 @@
     "id": 2,
     "position": "SDE Intern",
     "company": "STGI Technologies Pvt. Ltd.",
-    "image": "/stgi.png",
+    "image": "https://i.imgur.com/pzdBLzT.png",
     "startDate": "December 2022",
     "endDate": "May 2023",
     "description": [
@@ -41,7 +41,7 @@
     "id": 3,
     "position": "Frontend Intern",
     "company": "Foxmula - The Smart Way",
-    "image": "/fox.png",
+    "image": "https://i.imgur.com/X2fAGqx.png",
     "startDate": "June 2022",
     "endDate": "Nov 2022",
     "description": [
