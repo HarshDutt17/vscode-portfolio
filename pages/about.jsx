@@ -15,7 +15,7 @@ const AboutPage = () => {
         <p className={styles.paragraph}>
           Connect with me on <a href="https://www.linkedin.com/in/harshdutt17" className={styles.underline} target="_blank" rel="noopener noreferrer">LinkedIn</a> to learn more about my professional journey and achievements.
         </p>
-        <button className={styles.button} onClick={() => window.open('/resume.pdf', '_blank')}>
+        <button className={styles.button} onClick={() => window.open('/Harsh_SDE_java_react_resume.pdf', '_blank')}>
           Download Resume
         </button>
       </div>

@@ -1,5 +1,25 @@
 [
   {
+    "id": 0,
+    "position": "Software Engineer",
+    "company": "Arcesium",
+    "image": "https://i.imgur.com/qvrRDq0.png",
+    "startDate": "July 2024",
+    "endDate": "Present",
+    "description": [ "Achieved a 65% improvement in database query performance by implementing advanced indexing strategies and optimizing SQL queries,leading to enhanced system scalability and reduced latency.",
+                      "Delivered the migration of 1,000+ business rules to a self‑service rule management platform in half the allocated time (0.75 person‑months), automating workflows and reducing operational inefficiencies by 30%.",
+"Upgraded feed APIs to Bloomberg’s Data License Plus services, streamlining data integration and increasing system compatibility with modern platforms.",
+"Eliminated production bottlenecks and minimized downtime through rapid diagnosis and resolution of critical issues, minimizing down‑time and ensuring 99.9% system reliability  "
+    ],
+    "skills": [
+      "Java",
+      "Springboot",
+      "React.js",
+      "Kubernetes",
+      "Grafana"
+    ]
+  },
+  {
     "id": 1,
     "position": "SDE Intern",
     "company": "Arcesium",
