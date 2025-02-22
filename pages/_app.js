@@ -12,6 +12,12 @@ function MyApp({ Component, pageProps }) {
         "data-theme",
         localStorage.getItem("theme")
       );
+    } else {
+      localStorage.setItem("theme", "ayu-dark");
+      document.documentElement.setAttribute(
+        "data-theme",
+        "ayu-dark"
+      );
     }
   }, []);
 
